@@ -4,15 +4,13 @@ This is a sketch for Arduino UNO or MEGA, designed for the NCS318-8 shield that 
 
 	Folders description:
   
-	FIRMWARES - source code that must be complied in Arduino IDE, and allready compiled Binary files in *.hex format ready to be uploaded on to property board by flasher.
-  
-	GRA & AFCH Compiled Firmware Flasher - flasher (uploader) that must be used in prevois step.
+	FIRMWARE - source code that must be complied in [Arduino IDE](https://www.arduino.cc/en/software/#ide), and pre-compiled binary files in *.hex format, ready to be uploaded on to property board via "AvrDude", ["GA_Flasher"](https://github.com/afch/GA_Flasher) or any other software for flashing Atmega.
   
 	LIBRARIES - Arduino libraries without which compiling will be failed. That folders must be copied to Arduino LIBRARIES folder, (default path: C:\Users\USER_NAME\Documents\Arduino\libraries)
   
-	SCHEMES - electrical shemes for boards: for Nixie Clock Main Units - MCU, and for Nixie Tubes Boards
+	SCHEMES - electrical sheme for NCS318-8 board.
   
-	USB DRIVERS - drivers for USB-to-SERIAL(UART) converters
+	USB DRIVERS - drivers for USB-to-SERIAL(UART) converters.
   
 	USER MANUAL - end user's manuals.
 

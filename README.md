@@ -8,7 +8,7 @@ This is a sketch for Arduino UNO or MEGA, designed for the NCS318-8 shield that 
   
 	LIBRARIES - Arduino libraries without which compiling will be failed. That folders must be copied to Arduino LIBRARIES folder, (default path: C:\Users\USER_NAME\Documents\Arduino\libraries)
   
-	SCHEMES - electrical sheme for NCS318-8 board.
+	SCHEMES - electrical scheme for NCS318-8 board.
   
 	USB DRIVERS - drivers for USB-to-SERIAL(UART) converters.
   
